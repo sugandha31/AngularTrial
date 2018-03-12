@@ -1,0 +1,14 @@
+body{
+    background: lightblue;
+}
+
+.title{
+    text-align: center;
+    font: courier-new;
+    font-size: 25px;
+}
+
+div{
+    padding: 50px;
+    padding-left: 50px
+}

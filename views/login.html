@@ -1,0 +1,29 @@
+<head>
+    <script src ="../js/lib/angular.min.js" ></script>
+    <script src ="../js/lib/angular-route.min.js" ></script>
+    <!--routing is not a default feature of angularjs, library must be added-->
+    <script src ="../js/lib/angular-animate.min.js" ></script>
+
+    <script src="../js/controllers/registration.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<section class="title">
+    <form name = "myForm"
+        novalidate>
+
+        <div ng-app="login" ng-controller="RegistrationController" class="div">
+            <h1>Hi there!</h1>
+            <p>Log-in to access the awesomeness!</p>
+            <p>{{message}}</p>
+        </div>
+
+
+        <fieldset>
+            <input type="email" name="email" placeholder="Email"><br>
+            <input type="password" name="password" placeholder="Password">
+        </fieldset>
+        <br>
+        <button type="submit">Log-in</button>
+        <p>or <a href="#/register">register</p>
+    </form>
+</section>

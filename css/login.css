@@ -1,5 +1,5 @@
 body{
-    background: lightblue;
+    background: rgb(92, 15, 218);
 }
 
 .title{
@@ -11,4 +11,8 @@ body{
 div{
     padding: 50px;
     padding-left: 50px
+}
+
+input{
+    size: 20px;
 }

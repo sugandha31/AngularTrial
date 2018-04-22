@@ -10,15 +10,16 @@
 <section class="title">
     <form name="register"
         novalidate>
-    <div ng-app="register" ng-controller="RegistrationController">
+    <div ng-app="login" ng-controller="RegistrationController" class="div">
         <h1>Register</h1>
+        <p>{{message}}</p>
     </div>
-    <fieldset>                
+    <fieldset>
         First Name:
         <input type="text" name="fname" placeholder="FirstName"><br>
-        Last Name: 
+        Last Name:
         <input type="text" name="lname" placeholder="LastName"><br>
-        Email: 
+        Email:
         <input type="email" name="email" placeholder="Email"><br>
         Password:
         <input type="password" name="password" placeholder="Password"><br>

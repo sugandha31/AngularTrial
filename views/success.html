@@ -1,7 +1,17 @@
+<head>
+    <script src ="../js/lib/angular.min.js" ></script>
+    <script src ="../js/lib/angular-route.min.js" ></script>
+    <!--routing is not a default feature of angularjs, library must be added-->
+    <script src ="../js/lib/angular-animate.min.js" ></script>
+
+    <script src="../js/controllers/success.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+
 <section class="title">
-    <fieldset>
-        <h1>
-            SUCCESS..
-        </h1>
-    </fieldset>
+    <div ng-app="success" ng-controller="SuccessController" class="div">
+        <fieldset>
+            <p>{{message}}</p>
+        </fieldset>
+    </div>
 </section>
